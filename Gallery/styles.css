@@ -1,0 +1,41 @@
+div {
+	margin: 1%;
+	float: left;
+	width: 31.3%;
+	height: 250px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+
+}
+
+#image1 {background-image: url("images/foto1.jpg");}
+#image2 {background-image: url("images/foto2.jpg");}
+#image3 {background-image: url("images/foto3.jpg");}
+#image4 {background-image: url("images/foto4.jpg");}
+#image5 {background-image: url("images/foto5.jpg");}
+#image6 {background-image: url("images/foto6.jpg");}
+#image7 {background-image: url("images/foto7.jpg");}
+#image8 {background-image: url("images/foto8.jpg");}
+#image9 {background-image: url("images/foto9.jpg");}
+
+h1 {
+	margin: 1%;
+}
+
+hr {
+	margin: 1%;
+	width: 31.3%;
+
+}
+
+@media only screen and (max-width: 700px){
+	div {
+		width: 48%;
+	}
+}
+@media only screen and (max-width: 400px){
+	div {
+		width: 98%;
+	}
+}	
